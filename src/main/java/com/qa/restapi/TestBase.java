@@ -9,6 +9,11 @@ public class TestBase {
 	
 	public Properties prop;
 	
+	public int RESPONSE_CODE_200 = 200;
+	public int RESPONSE_CODE_201 = 201;
+	public int RESPONSE_CODE_404 = 404;
+	public int RESPONSE_CODE_502 = 502;
+	
 	public TestBase() throws IOException{
 		
 		try{

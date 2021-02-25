@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="1234" started-at="2021-02-25T03:43:34Z" finished-at="2021-02-25T03:43:36Z">
+  <suite name="Default suite" duration-ms="4347" started-at="2021-02-25T15:34:43Z" finished-at="2021-02-25T15:34:48Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="1234" started-at="2021-02-25T03:43:34Z" finished-at="2021-02-25T03:43:36Z">
+    <test name="Default test" duration-ms="4347" started-at="2021-02-25T15:34:43Z" finished-at="2021-02-25T15:34:48Z">
       <class name="com.qa.tests.GetAPITest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.GetAPITest@5a4aa2f2]" name="setup" is-config="true" duration-ms="15" started-at="2021-02-25T09:13:34Z" finished-at="2021-02-25T09:13:34Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.GetAPITest@2344fc66]" name="setup" is-config="true" duration-ms="8" started-at="2021-02-25T21:04:43Z" finished-at="2021-02-25T21:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="getAPITest()[pri:0, instance:com.qa.tests.GetAPITest@5a4aa2f2]" name="getAPITest" duration-ms="1179" started-at="2021-02-25T09:13:34Z" finished-at="2021-02-25T09:13:36Z">
+        <test-method status="PASS" signature="getAPITestWithoutHeader()[pri:0, instance:com.qa.tests.GetAPITest@2344fc66]" name="getAPITestWithoutHeader" duration-ms="3891" started-at="2021-02-25T21:04:43Z" finished-at="2021-02-25T21:04:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getAPITest -->
+        </test-method> <!-- getAPITestWithoutHeader -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.GetAPITest@2344fc66]" name="setup" is-config="true" duration-ms="0" started-at="2021-02-25T21:04:47Z" finished-at="2021-02-25T21:04:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getAPITestWithHeader()[pri:0, instance:com.qa.tests.GetAPITest@2344fc66]" name="getAPITestWithHeader" duration-ms="424" started-at="2021-02-25T21:04:47Z" finished-at="2021-02-25T21:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPITestWithHeader -->
       </class> <!-- com.qa.tests.GetAPITest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
